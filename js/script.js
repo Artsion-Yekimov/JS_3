@@ -32,13 +32,42 @@ console.log ("Сумма чисел от 1 до 100 = " + sum);
 
 // NUMBER 4
 console.log ('------------- NUMBER 4 -------------')
-sum=0;
 let c=5
 for (let a=1; a<=c; a++ ) {
     sum = 0;
         for(let b=1; b<=a; b++){
-            sum += b;
+            sum += b; //ЧТО ЭТО ЗНАЧИТ???
         }
-    console.log (`Сумма из ${a} = ${sum}`);
+console.log (`Сумма из ${a} = ${sum}`);
+}
+//--------------------------------------------
+
+// NUMBER 5
+console.log ('------------- NUMBER 5-1 -------------')
+a=7;
+while (a<=56) {
+    a++;
+    if (a%2==0) (
+        console.log (a)
+    )
+}
+console.log ('------------- NUMBER 5-2 -------------')
+for (a=7; a<=56; a++) {
+        if (a%2==0) (
+            console.log (a)
+        )
+}
+//--------------------------------------------
+
+// NUMBER 6
+console.log ('------------- NUMBER 6 -------------')
+c=10;
+for (let a=2; a<=c; a++ ) {
+    sum = 0;
+    console.log (`Таблица умножения для ${a}`);
+        for(let b=1; b<=c; b++){
+            sum = a*b;
+            console.log (`${a}*${b} = ${sum} `);
+        }
 }
 //--------------------------------------------
